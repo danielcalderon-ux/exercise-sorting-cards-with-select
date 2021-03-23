@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.header {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: fit-content;
+}
+
+#tit,
+#input {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  margin-top: 20px;
+  width: 18vh;
+  height: 25vh;
+  margin: 20px;
+  border-color: blue;
+}
+
+.number {
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  font-size: 8vh;
+  position: relative;
+  top: -5%;
+  left: 0%;
+}
+.figure1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 4vh;
+  position: relative;
+  top: 0%;
+  left: 5%;
+}
+
+.figure2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 4vh;
+  position: relative;
+  top: -3%;
+  left: 75%;
+}
+
+#cards {
+  margin-left: 140px;
+}
